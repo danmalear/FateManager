@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FateManager", "FateManager\FateManager.csproj", "{4732958B-B997-4C40-A34F-096A63174736}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1240EBB-5D52-4425-9723-2E008143D73B} = {B1240EBB-5D52-4425-9723-2E008143D73B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FateManager.Data", "FateManager.Data\FateManager.Data.csproj", "{B1240EBB-5D52-4425-9723-2E008143D73B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{4732958B-B997-4C40-A34F-096A63174736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4732958B-B997-4C40-A34F-096A63174736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4732958B-B997-4C40-A34F-096A63174736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1240EBB-5D52-4425-9723-2E008143D73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1240EBB-5D52-4425-9723-2E008143D73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1240EBB-5D52-4425-9723-2E008143D73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1240EBB-5D52-4425-9723-2E008143D73B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
